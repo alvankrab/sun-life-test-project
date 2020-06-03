@@ -1,0 +1,54 @@
+.user-header-container {
+    background-attachment: fixed;
+    background-image: url('../../assets/images/background.jpg');
+    background-size: 100%;
+    color: #ffffff;
+
+    .profile-photo {
+        height: 70px;
+        width: 70px;
+        margin: auto;
+        background-color: #ffffff;
+        border-radius: 100%;
+        img {
+            border: 1px solid #000000;
+            border-radius: 100%;
+        }
+    }
+    
+    .center {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .greeting {
+        font-family: 'Dancing Script', cursive;
+        color: #ffffff;
+    }
+
+    .user-name {
+        font-family: 'Arial';
+        color: #ffffff;
+    }
+
+    .top-bar-nav {
+        font-size: 50px;
+    }
+
+    .tab-selector {
+        background-color: rgba(245, 229, 27, 0.8);
+        margin-top: -4px;
+        color: #000000;
+        svg {
+            display: block;
+        }
+        ion-col {
+            margin: auto;
+            text-align: center;
+            font-size: 14px;
+            ion-icon {
+                font-size: 20px;
+            }
+        }
+    }
+}
