@@ -1,0 +1,34 @@
+{
+    "policyMenu" : [
+        {
+            "description": "Move value from one policy to another",
+            "iconName": "copy-outline",
+            "menu" : [
+                "Pay with Policy Value",
+                "Standing Instructions"
+            ]
+        },
+        {
+            "description": "Cash out your policy values",
+            "iconName": "cash-outline",
+            "menu" : [
+                "Value Withdrawal",
+                "Payout Method"
+            ]
+        },
+        {
+            "description": "Take a loan against your policy value",
+            "iconName": "download-outline",
+            "menu" : [
+                "Loans"
+            ]
+        },
+        {
+            "description": "Payment options for your premiums",
+            "iconName": "hand-right-outline",
+            "menu" : [
+                "Premium Payment Method"
+            ]
+        }
+    ]
+}

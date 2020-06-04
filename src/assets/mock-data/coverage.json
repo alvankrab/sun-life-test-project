@@ -1,0 +1,28 @@
+{
+    "coverage" : [
+        {
+            "id": 1,
+            "title" : "Life",
+            "description" : "HKD 6,164,066",
+            "imgUrl" : "../../assets/images/life.png"
+        },
+        {
+            "id": 2,
+            "title" : "Critical Illness",
+            "description" : "up to HKD 1,000,000*",
+            "imgUrl" : "../../assets/images/critical illness.png"
+        },
+        {
+            "id": 3,
+            "title" : "Medical & Hosp.",
+            "description" : "up to: HKD 721,800/year, <br> HKD 600,000/disability",
+            "imgUrl" : "../../assets/images/medical.png"
+        },
+        {
+            "id": 4,
+            "title" : "Hospital",
+            "description" : "HKD 1,000,000*",
+            "imgUrl" : "../../assets/images/accident.png"
+        }
+    ]
+}

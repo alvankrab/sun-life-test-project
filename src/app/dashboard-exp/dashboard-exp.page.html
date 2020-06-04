@@ -1,7 +1,31 @@
 <ion-content [fullsccreen]="true">
   <app-user-header></app-user-header>
   <div class="container">
-    This is the Expanded Dashboard Page
-    TODO: Complete the expanded dashboard page
+    <div class="policy-menu">
+      <div class="policy-menu-item" *ngFor="let menuOption of policyMenu">
+        <div class="menu-header">
+          <ion-row>
+            <ion-col class="icon" size="1" offset="1">
+              <ion-icon name="{{menuOption.iconName}}"></ion-icon>
+            </ion-col>
+            <ion-col class="description" size="10">
+              {{menuOption.description}}
+            </ion-col>
+          </ion-row>
+          
+        </div>
+        <ion-row class="menu-item" *ngFor="let menuItem of menuOption.menu">
+          <ion-col size="8" offset="2">
+            {{menuItem}} 
+          </ion-col>
+          <ion-col size="2" class="ion-align-items-end">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </div> 
+    </div>
+    <div class="arrow-up">
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
   </div>
 </ion-content>

@@ -1,0 +1,24 @@
+{
+    "assets" : {
+        "assetList": [
+            {
+                "id" : 1,
+                "name" : "Invested-Linked",
+                "value" : 10539,
+                "currency" : "HKD"
+            },
+            {
+                "id" : 2,
+                "name" : "Savings",
+                "value" : 161688,
+                "currency" : "HKD"
+            }
+        ],
+        "total" : {
+            "id" : 1,
+            "name" : "total",
+            "value" : 255309,
+            "currency" : "HKD"
+        }
+    }
+}

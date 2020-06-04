@@ -1,0 +1,28 @@
+.menu-header {
+    padding: 10px 0;
+    .icon {
+        color: rgba(245, 229, 27, 1);
+    }
+    .description {
+        color: #777;
+        font-size: 14px;
+    }
+}
+
+.menu-item {
+    padding: 10px 0;
+    color: #00003f;
+}
+
+.arrow-up {
+    align-items: center;
+    text-align: center;
+}
+
+.policy-menu-item {    
+    box-shadow: 0px 24px 3px -24px #777;
+}
+
+.policy-menu-item:last-of-type {
+    box-shadow: 0 0 0 0 #fff ;
+}

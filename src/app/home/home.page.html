@@ -1,7 +1,37 @@
 <ion-content [fullscreen]="true">
 <app-user-header></app-user-header>
   <div class="container">
-    This is the Dashboard Page
-    TODO: Complete the dashboard page
+    <div class="coverage-link" [routerLink]="['/policies']">
+      Coverage from {{coverageCount}} policies <ion-icon name="chevron-forward-outline"></ion-icon>
+    </div>
+    <div class="coverage-cards">
+      <div *ngFor="let coverage of coverageList" class="coverage-card">
+        <img src="{{coverage.imgUrl}}">
+        <div class="coverage-title">
+          {{coverage.title}}
+        </div>
+        <div class="coverage-description" [innerHtml]="coverage.description">
+        </div>
+      </div>
+      <div class="notes">
+        *Additional coverages detailed in provision
+      </div>
+    </div>
+    <div class="bottom-card">
+      <div class="bottom-card-header">
+        <ion-row>
+          <ion-col class="assets-total-label">Assets</ion-col>
+          <ion-col class="assets-total-value">Total {{assets.total.value | currency: assets.total.currency :'code'}}</ion-col>
+        </ion-row>
+      </div>
+      <hr>
+      <div class="bottom-card-content">
+        <ion-row *ngFor="let asset of assets.assetList">
+          <ion-col>{{asset.name}}</ion-col>
+          <ion-col class="ion-align-items-end">{{asset.value | currency: asset.currency : 'code'}} <ion-icon name="chevron-forward-outline"></ion-icon></ion-col>
+        </ion-row>
+      </div>
+    </div>
   </div>
+  
 </ion-content>
